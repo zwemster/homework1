@@ -3,6 +3,9 @@ public class Cat {
     private Integer appetite;
     private Boolean isHungry;               // добавлено поле "сытость"
 
+    public String getName() {
+        return name;
+    }
     public Boolean getIsHungry() {
         return isHungry;
     }
